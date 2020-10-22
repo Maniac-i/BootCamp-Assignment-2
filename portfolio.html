@@ -6,95 +6,107 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
     integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC&family=Poiret+One&display=swap"
+    rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@100;500&family=Julius+Sans+One&display=swap" rel="stylesheet">
   <title>Portfolio Page</title>
 </head>
 
-<body style="background-image: url('topo.jpg');">
+<body>
   <div class="container">
-  <!--Top navbar-->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-    <a class="navbar-brand" href="index.html">Joe Maniaci</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav ml-auto">
-        <a class="nav-link" href="index.html">About Me</a>
-        <a class="nav-link active" href="portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
-        <a class="nav-link" href="contact.html">Contact</a>
-      </div>
-    </div>
-  </nav>
-  <br>
-  <main class="mt-5">
-    <div class="w-75 p-3 mx-auto" style="background-color: #eee;">
-      <h1 class="display-4">Portfolio</h1>
-      <hr>
-    </div>
-    <br>
-    <section class="w-75 p-3 mx-auto" style="background-color: #eee;">
-      <div class="row">
-        <div class="media">
-          <img src="clipart942700.png" class="align-self-center mr-3" width="100px alt=" rock paper scissors on a wood
-            table">
-          <div class="media-body">
-            <h5 class="mt-0"><a href="https://maniac-i.github.io/Rock-Paper-Scissors/">Rock-Paper-Scissors</a></h5>
-            <p>A game of Rock-Paper-Scissors. It was originally designed to be played in the console, but was later
-              updated to engage the player with buttons and user input. This project was completed as an introduction to
-              Javascript and as a part of the Odin Project.
-            </p>
-          </div>
+    <!--Top navbar-->
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <a class="navbar-brand" href="index.html">Joe Maniaci</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ml-auto">
+          <a class="nav-link" href="index.html">About Me</a>
+          <a class="nav-link active" href="portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="contact.html">Hit Me Up</a>
         </div>
       </div>
-    </section>
+    </nav>
     <br>
-    <section class="w-75 p-3 mx-auto" style="background-color: #eee;">
-      <div class="row">
-        <div class="media">
-          <img src="etch-a-sketch (1).png" class="align-self-center mr-3" width="100px alt=" Etch-a-Sketch">
-          <div class="media-body">
-            <h5 class="mt-0"><a href="https://maniac-i.github.io/Etch-a-Sketch/">Etch-a-Sketch</a></h5>
-            <p>An interactive Etch-a-sketch made using HTML, CSS, and Javascript. The main focus of this project was
-              going deeper with Javascript. Select the grid size you want and begin drawing! Feel free to clear the grid
-              anytime you want and start over!
-            </p>
+    <main class="mt-5">
+      <div class="w-75 mx-auto portfolio">
+        <h1 class="display-4">Portfolio</h1>
+        <hr>
+      </div>
+      <section class="w-75 p-3 mx-auto aboutMe">
+        <div class="row">
+          <div class="media">
+            <img src="greg-rakozy-vw3Ahg4x1tY-unsplash.jpg" class="align-self-center mr-3 pl-3 img-fluid"
+              width="200px alt=" rock paper scissors on a wood table">
+            <div class="media-body">
+              <h5 class="mt-0"><a href="https://maniac-i.github.io/Rock-Paper-Scissors/">Rock-Paper-Scissors</a></h5>
+              <p class="pr-3">A game of Rock-Paper-Scissors. It was originally designed to be played in the console, but
+                was later
+                updated to engage the player with buttons and user input. This project was completed as an introduction
+                to
+                Javascript and as a part of the Odin Project.
+              </p>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
-    <br>
-    <section class="w-75 p-3 mx-auto" style="background-color: #eee;">
-      <div class="row">
-        <div class="media">
-          <img src="Lovepik_com-400254962-calculator.png" class="align-self-center mr-3" width="100px alt=" calculator">
-          <div class="media-body">
-            <h5 class="mt-0"><a href="https://maniac-i.github.io/Calculator/">Calculator</a></h5>
-            <p>This project utilizes HTML, CSS, and Javascript to create a functioning calculator. This project main
-              focus was to create a visually appealing interface using CSS and become comfortable manipulating arrays.
-            </p>
+      </section>
+      <br>
+      <section class="w-75 p-3 mx-auto aboutMe">
+        <div class="row">
+          <div class="media">
+            <img src="greg-rakozy-vw3Ahg4x1tY-unsplash.jpg" class="align-self-center mr-3 pl-3 img-fluid"
+              width="200px alt=" Etch-a-Sketch">
+            <div class="media-body">
+              <h5 class="mt-0"><a href="https://maniac-i.github.io/Etch-a-Sketch/">Etch-a-Sketch</a></h5>
+              <p class="pr-3">An interactive Etch-a-sketch made using HTML, CSS, and Javascript. The main focus of this
+                project was
+                going deeper with Javascript. Select the grid size you want and begin drawing! Feel free to clear the
+                grid
+                anytime you want and start over!
+              </p>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
-    <br>
-    <section class="w-75 p-3 mx-auto" style="background-color: #eee;">
-      <div class="row">
-        <div class="media">
-          <img src="HTML5_Logo_512.png" class="align-self-center mr-3" width="100px alt=" html logo">
-          <div class="media-body">
-            <h5 class="mt-0"><a href="https://maniac-i.github.io/Bootcamp-Assignment-1/Develop/index.html">Code
-                Refactoring</a></h5>
-            <p>This project focused on refactoring a websites HTML to make is more accesibile while maintaining its
-              original function.
-            </p>
+      </section>
+      <br>
+      <section class="w-75 p-3 mx-auto aboutMe">
+        <div class="row">
+          <div class="media">
+            <img src="greg-rakozy-vw3Ahg4x1tY-unsplash.jpg" class="align-self-center mr-3 pl-3 img-fluid"
+              width="200px alt=" calculator">
+            <div class="media-body">
+              <h5 class="mt-0"><a href="https://maniac-i.github.io/Calculator/">Calculator</a></h5>
+              <p class="pr-3">This project utilizes HTML, CSS, and Javascript to create a functioning calculator. This
+                project main
+                focus was to create a visually appealing interface using CSS and become comfortable manipulating arrays.
+              </p>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
-  </main>
-  <br>
-</div>
+      </section>
+      <br>
+      <section class="w-75 p-3 mx-auto aboutMe">
+        <div class="row">
+          <div class="media">
+            <img src="greg-rakozy-vw3Ahg4x1tY-unsplash.jpg" class="align-self-center mr-3 pl-3 img-fluid"
+              width="200px alt=" html logo">
+            <div class="media-body">
+              <h5 class="mt-0"><a href="https://maniac-i.github.io/Bootcamp-Assignment-1/Develop/index.html">Code
+                  Refactoring</a></h5>
+              <p class="pr-3">This project focused on refactoring a websites HTML to make is more accesibile while
+                maintaining its
+                original function.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <br>
+  </div>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
     crossorigin="anonymous"></script>
