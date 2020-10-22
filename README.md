@@ -23,3 +23,6 @@ In this assignment, the goal was to make a responsive webpage using Bootstrap. R
 
 * Must properly utilize Bootstrap components and grid system.
 
+![](https://github.com/Maniac-i/BootCamp-Assignment-2/blob/main/Images/992-index.png?raw=true)
+
+![](https://github.com/Maniac-i/BootCamp-Assignment-2/blob/main/Images/992-portfolio.png?raw=true)
