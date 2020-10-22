@@ -26,3 +26,7 @@ In this assignment, the goal was to make a responsive webpage using Bootstrap. R
 ![](https://github.com/Maniac-i/BootCamp-Assignment-2/blob/main/Images/992-index.png?raw=true)
 
 ![](https://github.com/Maniac-i/BootCamp-Assignment-2/blob/main/Images/992-portfolio.png?raw=true)
+
+![](https://github.com/Maniac-i/BootCamp-Assignment-2/blob/main/Images/992-contact.png?raw=true)
+
+This was a great assignment to get familiar with a third party CSS stylesheet as well as see how responsivness can be built in. It also emphasized the importance of version control and committing your changes often. 
