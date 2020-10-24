@@ -1,3 +1,4 @@
+/*sets styles for entire page*/
 body {
   color: lightgray;
   line-height: 1.5em;
@@ -6,6 +7,12 @@ body {
   background-size: cover;
 }
 
+/* styles navbar*/
+nav {
+  background-color: #313c31;
+}
+
+/* Styles h1 elements*/
 h1 {
   font-family: 'Poiret One', cursive;
 }
@@ -13,32 +20,30 @@ h1 {
 p, h5, label, .submit { 
   font-family: 'Alegreya Sans SC', sans-serif;
 }
+
 h5, label {
   font-weight: 500;
 }
 
 p, .submit {
-  font-weight: 100;
+  font-weight: 100;s
 }
 
-nav {
-  background-color: #313c31;
-  
-}
-
+/* styles text of a elements*/
 a {
   color: lightgray;
 }
 
+/*sets background color for social media bar on contact page and sections on about me and portfolio page*/
  .socialMedia, .aboutMe {
   background-color: #313c31;
-
 }
 
 hr {
   background-color: darkolivegreen;
 }
 
+/*sets font size of paragraph in About Me section*/
 .paragraph {
   font-size: 25px;
 }
