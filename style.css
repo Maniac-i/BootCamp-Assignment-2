@@ -26,7 +26,7 @@ h5, label {
 }
 
 p, .submit {
-  font-weight: 100;s
+  font-weight: 100;
 }
 
 /* styles text of a elements*/
@@ -46,4 +46,8 @@ hr {
 /*sets font size of paragraph in About Me section*/
 .paragraph {
   font-size: 25px;
+}
+
+.emailphone {
+  font-size: 10px;
 }
