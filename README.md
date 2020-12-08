@@ -3,6 +3,8 @@ Assignment 2 for OSU Coding Bootcamp
 
 In this assignment, the goal was to make a responsive webpage using Bootstrap. Responsivness ensures that a webpage will look appealing across multiple size devices, such as a computer screen and an smartphone. The main components of this assignment included creating an "About Me", "Portfolio" and "Contact" page. The minimum reguirements, along with examples of the finished product, are shown below.
 
+https://maniac-i.github.io/Portfolio/
+
 ### Minimum Requirements
 
 * Functional, deployed application
