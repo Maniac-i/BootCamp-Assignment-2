@@ -25,10 +25,8 @@ https://maniac-i.github.io/Portfolio/
 
 * Must properly utilize Bootstrap components and grid system.
 
-![](https://github.com/Maniac-i/BootCamp-Assignment-2/blob/main/Images/992-index.png?raw=true)
+![](https://github.com/Maniac-i/Portfolio/blob/main/Images/Screen%20Shot%202020-12-10%20at%205.51.19%20PM.png?raw=true)
 
-![](https://github.com/Maniac-i/BootCamp-Assignment-2/blob/main/Images/992-portfolio.png?raw=true)
 
-![](https://github.com/Maniac-i/BootCamp-Assignment-2/blob/main/Images/992-contact.png?raw=true)
 
 This was a great assignment to get familiar with a third party CSS stylesheet as well as see how responsivness can be built in. It also emphasized the importance of version control and committing your changes often. 
