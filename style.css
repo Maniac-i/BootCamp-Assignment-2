@@ -13,7 +13,7 @@ nav {
 }
 
 /* Styles h1 elements*/
-h1 {
+h1, h2 {
   font-family: 'Poiret One', cursive;
 }
 
